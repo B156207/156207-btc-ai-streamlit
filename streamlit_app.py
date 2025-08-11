@@ -509,11 +509,13 @@ def main():
     <div class="footer">
         <p><strong>Risk Disclaimer:</strong> This tool is for educational and research purposes only. 
         Cryptocurrency investments carry substantial risk of loss.</p>
-        <p style="margin-top: 1rem;">Powered by PyTorch Neural Networks</p>
+        <p style="margin-top: 1rem;">Powered by PyTorch Neural Networks | 
+        by Rexzea</p>
     </div>
     """, unsafe_allow_html=True)
     
     st.markdown('</div>', unsafe_allow_html=True)  # close container
 
 if __name__ == "__main__":
+
     main()
